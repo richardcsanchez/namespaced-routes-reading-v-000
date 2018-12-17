@@ -4810,3 +4810,12 @@ LoadError (Unable to autoload constant Admin::StatsController, expected /home/ri
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.1ms)
+
+
+Started GET "/admin/stats" for 208.251.181.122 at 2018-12-17 21:55:10 +0000
+Cannot render console from 208.251.181.122! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+TypeError (superclass mismatch for class StatsController):
+  app/controllers/admin/stats_controller.rb:1:in `<top (required)>'
+
+
